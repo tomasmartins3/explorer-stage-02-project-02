@@ -1,16 +1,16 @@
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: end;
+  text-align: center;
   margin: 0;
 }
 
+
 #hero {
     width: 592px;
-    margin: 72px;
+    margin: auto;
 }
-
-img {
-    margin: 100px;
+#hero img {
+  margin-bottom: 72px;
 }
 
 h1 {
@@ -36,6 +36,10 @@ p, #footer {
   line-height: 28px;
 }
 
+#footer {
+  padding: 8px 0;
+}
+
 #footer a + a {
     margin-left: 28px;
 }
@@ -44,13 +48,14 @@ p, #footer {
     width: 568px;
     height: 0;
 
-    margin: 0 8px;
+    margin: auto;
+    margin-top: 72px;
 
     border: 1px solid #ECEFF2;
 }
 
 #balls {
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
 }
